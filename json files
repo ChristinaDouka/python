@@ -1,0 +1,4 @@
+import json
+data = json.loads('{"lat":444, "lon":555}')
+print(data["lat"])
+print(data["lon"])
